@@ -8,7 +8,7 @@ public class Movie {
 	private double rating;
 	private int availableSeats;
 	
-	public void Movie(String title, String director, double rating, int availableSeats) {
+	public Movie(String title, String director, double rating, int availableSeats) {
 		
 		this.title = title;
 		this.director = director;

@@ -54,7 +54,7 @@ public class EncapsuleTest {
 		//Movie
 		
 		Movie mv = new Movie("타이타닉","제임스카메론",9.0 ,300);
-		mv.showDetail;
+		mv.showDetails();
 		
 		
 		
