@@ -5,6 +5,12 @@ package Sub_8;
  * 내용 : java 인터페이스 실습
  * 
  */
+interface Person{
+	public void hello();
+	public void info();
+	
+}
+
 public class InterfaceTest {
 
 	public static void main(String[] args) {
@@ -41,6 +47,25 @@ public class InterfaceTest {
 		stv.chup();
 		stv.process();
 		stv.save();
+		
+		//익명 개체 생성
+		Person kim = new Person() {
+			
+			@Override
+			public void info() {
+				
+				System.out.println("김유신 입니다");
+			}
+			
+			@Override
+			public void hello() {
+				
+				System.out.println("안녕하세요");
+			}
+		};
+		
+		kim.hello();
+		kim.info();
 		
 		
 		
