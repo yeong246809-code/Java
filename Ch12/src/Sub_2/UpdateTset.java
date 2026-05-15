@@ -30,7 +30,7 @@ public class UpdateTset {
 				
 				//3) sql 실행
 				String sql = "UPDATE user1 SET name='홍길동', hp='010-1212-0000', age=19 WHERE userid='J102'";
-				stmt.executeUpdate(sql);
+				stmt.executeUpdate(sql); // Insert, Update, Delete 쿼리만 사용
 				
 				//4) sql 결과처리(select 작업일 경우)
 				//5) DB 연결해제
